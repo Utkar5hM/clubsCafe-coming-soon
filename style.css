@@ -1,0 +1,85 @@
+/* ---- reset ---- */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  font-size: 12px;
+}
+canvas {
+  display: block;
+  vertical-align: bottom;
+} /* ---- particles.js container ---- */
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #121416;
+  background-image: url('http://vincentgarreau.com/particles.js/assets/img/kbLd9vb_new.gif');
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: 0 95%;
+} /* ---- stats.js ---- */
+.box {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.footercss {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100%;
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: #a9c0f1;
+}
+@media screen and (max-width: 2400px) {
+  .box p img {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 950px) {
+  .box p img {
+    width: 80%;
+  }
+  body {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .box p img {
+    width: 95%;
+  }
+  body {
+    font-size: 6px;
+  }
+}
+
+/* 
+                   ____                  
+                _.' :  `._               
+            .-.'`.  ;   .'`.-.           
+   __      / : ___\ ;  /___ ; \      __  
+ ,'_ ""--.:__;".-.";: :".-.":__;.--"" _`,
+ :' `.t""--.. '<@.`;_  ',@>` ..--""j.' `;
+      `:-.._J '-.-'L__ `-- ' L_..-;'     
+        "-.__ ;  .-"  "-.  : __.-"       
+            L ' /.------.\ ' J           
+             "-.   "--"   .-"            
+            __.l"-:_JL_;-";.__           
+         .-j/'.;  ;""""  / .'\"-.        
+       .' /:`. "-.:     .-" .';  `.      
+    .-"  / ;  "-. "-..-" .-"  :    "-.   
+ .+"-.  : :      "-.__.-"      ;-._   \  
+  */
